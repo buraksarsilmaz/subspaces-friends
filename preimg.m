@@ -12,8 +12,8 @@ function W = preimg(A,V,tol)
 % Selahattin Burak Sarsilmaz, February 2022 (Matlab R2021a), made use of 
 % 1) Function BVinv, Behcet Acikmese,  June 2007.
 % Source:
-% i) Chapter 3.1.1 of Controlled and Conditioned Invariants in Linear 
-% Systems Theory
+% i) Chapter 3.1.1 of Controlled and conditioned invariants in linear 
+% systems theory, Basile and Marro.
 % ========================================================================
 
 if isempty(A) || isempty(V) 
