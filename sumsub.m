@@ -10,8 +10,10 @@ function W = sumsub(X,Y,tol)
 
 % ========================================================================
 % Selahattin Burak Sarsilmaz, February 2022 (Matlab R2021a), made use of 
-% 1) Function BsumS, Behcet Acikmese,  June 2007;
-% 2) Function sums, Giuseppe Basile & Giovanni Marro , April 1990.
+% 1) Function BsumS, Behcet Acikmese,  June 2007.
+% Source:
+% i) Chapter 3.1.1 of Controlled and Conditioned Invariants in Linear 
+% Systems Theory
 % ========================================================================
 
 m1 = size(X,1);
