@@ -20,9 +20,9 @@ function F = fci(V,A,B,tol,k)
 % Selahattin Burak Sarsilmaz, February 2022 (Matlab R2021a), made use of 
 % 1) Function BciF, Behcet Acikmese,  June 2007. 
 % Sources: 
-% i) Theorem 4.2 of Control theory for linear systems, 
-% Trentelman, Stoorvogel, and Hautus;
-% ii) Remark 2.2 of Revisiting disturbance decoupling with optimization 
+% i) Lemma 4.2 of Linear multivariable control: a geometric approach, 
+% Wonham, 2nd Edition;
+% ii) Remark 2.2 of Revisiting disturbance decoupling with an optimization 
 % perspective, Sarsilmaz, Li, and Acikmese.
 % ========================================================================
 
