@@ -1,14 +1,14 @@
 function [Vmin, V, F] = ssbci(K,A,B,E,tol,k)
-% SSBCI Orthonormal basis computation for the smallest self bounded
+% SSBCI Orthonormal basis computation for the smallest self-bounded
 % (A,B)-controlled invariant subspace contained in the image of K and 
 % containing the image of E.
 % [Vmin,V,F] = ssbci(K,A,B,E) returns an orthonormal basis for the smallest
-% self bounded (A,B)-controlled invariant subspace contained in imK and 
+% self-bounded (A,B)-controlled invariant subspace contained in imK and 
 % containing imE, an orthonormal basis for the largest (A,B)-controlled 
 % invariant subspace in imK, and an F s.t. imV is (A+BF)-invariant. 
 %
 % [Vmin,V,F] = ssbci(K,A,B,E,tol) returns an orthonormal basis for the 
-% smallest self bounded (A,B)-controlled invariant subspace contained in 
+% smallest self-bounded (A,B)-controlled invariant subspace contained in 
 % imK and containing imE, an orthonormal basis for the largest 
 % (A,B)-controlled invariant subspace in imK, and an F s.t. imV is 
 % (A+BF)-invariant, where tol is a user-defined threshold to have a certain 
@@ -16,7 +16,7 @@ function [Vmin, V, F] = ssbci(K,A,B,E,tol,k)
 % compute V and fci(V,A,B,tol) to compute F.
 %
 % [Vmin,V,F] = ssbci(K,A,B,E,tol,k) returns an orthonormal basis for the 
-% smallest self bounded (A,B)-controlled invariant subspace contained in 
+% smallest self-bounded (A,B)-controlled invariant subspace contained in 
 % imK and containing imE, an orthonormal basis for the largest 
 % (A,B)-controlled invariant subspace in imK, and an F s.t. imV is 
 % (A+BF)-invariant, where tol is a user-defined threshold to have a certain
