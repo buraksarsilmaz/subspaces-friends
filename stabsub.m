@@ -23,8 +23,8 @@ if n1 ~= n2 || isempty(A)
 end
 
 v = eig(A);  
-i = find(real(v) < 0); % indices of stable eigenvalues
-vs = v(i);             % stable eigenvalues
+i = real(v) < 0; % indices of stable eigenvalues
+vs = v(i);       % stable eigenvalues
 
 if length(vs) == n1
     p = zeros(n1,n1);
