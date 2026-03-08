@@ -116,7 +116,7 @@ if nargout > 2
         L = preimg(B,V,tol);
         k = size(L,2); 
         BtilL = Btil*L; 
-        Btil1L = BtilL(1:r,k);
+        Btil1L = BtilL(1:r,:);
         F11til = -place(AF0til11,Btil1L,pr);
         F1til = [F11til zeros(k,nx2-r)]; 
         F2til = F0til + L*F1til; 
